@@ -7,8 +7,8 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "DEV Community", // Usually your GitHub org/user name.
+  projectName: "developers-community", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "DEV Community",
@@ -89,13 +89,14 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/facebook/docusaurus/edit/master/website/"
+          editUrl:
+            "https://github.com/drjoeycadieux/developers-community/edit/main/docs/doc1.md"
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/"
+            "https://github.com/drjoeycadieux/developers-community/edit/main/docs/doc1.md"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")

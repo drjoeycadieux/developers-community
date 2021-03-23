@@ -90,13 +90,13 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/drjoeycadieux/developers-community/edit/main/docs/doc1.md"
+            "https://github.com/drjoeycadieux/developers-community/blob/main/docs/doc1.md"
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/drjoeycadieux/developers-community/edit/main/docs/doc1.md"
+            "https://github.com/drjoeycadieux/developers-community/blob/main/docs/doc2.md"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")

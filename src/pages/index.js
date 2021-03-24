@@ -28,7 +28,7 @@ const features = [
     )
   },
   {
-    title: "Powered by React",
+    title: "Powered by DEV Community",
     imageUrl: "img/undraw_docusaurus_react.svg",
     description: (
       <>
